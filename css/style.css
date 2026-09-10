@@ -1,45 +1,69 @@
 body{
     margin: 0;
-    background-color: #000000;
+    background-color: #0d0d0d;
     color: #ffffff;
+    font-family: 'Arial', sans-serif;
 }
 p{
     font-size: 1.1rem;
-    color: #ffffff;
+    color: #f0f0f0;
     line-height: 2rem;
 }
 h1{
-    font-size: 2rem;
-    color: #307abe;
+    font-size: 2.2rem;
+    color: #ff8c00;
     font-family: 'Arial', sans-serif;
-
+    text-align: center;
+    padding: 1.5rem 0;
+}
+h2{
+    color: #ff8c00;
+}
+a{
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #ffb366;
+    text-decoration: underline;
 }
 .flex{
     display: flex;
     margin: 5rem;
     justify-content: space-between;
+    gap: 2rem;
 }
 .leftdiv{
     width: 50%;
-    background-color: #bac935;
+    background-color: #1a1a1a;
     border-radius: 10px;
-    border: 2px solid #f55b5b;
-    padding: 1rem;
+    border: 2px solid #ff8c00;
+    padding: 1.5rem;
 }
 .rightdiv{
     width: 50%;
-    background-color: #31b87f;
-     border-radius: 10px;
-    border: 2px solid #f55b5b;
-    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: 2px solid #ff8c00;
+    padding: 1.5rem;
 }
 .divflex1{
     width: 50%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1.5rem;
 }
 .divflex2{
     width: 50%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1.5rem;
 }
 .imgclass{
     width: 100%;
-    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 1rem 0;
 }
